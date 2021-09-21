@@ -1,0 +1,4 @@
+[run]
+include = MMd/*
+omit = *test_*, *__main__.py
+branch = True

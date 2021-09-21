@@ -9,15 +9,18 @@ reqs:
 	pip install -r requirements.txt
 
 .PHONY: docs
-docs:
+docs:	release
 	cd rst && \
 		sphinx-build -b html -d _build/doctrees . ../docs
 
 .PHONY: test
 test:
-	python -m pytest tests
+	python -m pytest
 
 .PHONY: changes
 changes:	## create CHANGES file from git logs
 	git log --oneline --pretty=format:"* %ad: %s" --date=short > CHANGES
 
+.PHONY: release
+release:
+	pyinstaller --onefile --windowed --icon icon.icns --name mmd mmd.py
