@@ -1,0 +1,8 @@
+sphinx
+sphinxcontrib-spelling
+sphinxcontrib-programoutput
+sphinxcontrib-tikz
+texext
+pytest
+pytest-qt
+pytest-cov

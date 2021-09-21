@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Glossary &#8212; qtMMD 0.1.0 documentation</title>
+    <link rel="stylesheet" href="_static/sphinx13.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx13.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Change Log" href="changes.html" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700'
+          rel='stylesheet' type='text/css' />
+ 
+    <style type="text/css">
+      table.right { float: right; margin-left: 20px; }
+      table.right td { border: 1px solid #ccc; }
+      
+    </style>
+    <script>
+      // intelligent scrolling of the sidebar content
+      $(window).scroll(function() {
+        var sb = $('.sphinxsidebarwrapper');
+        var win = $(window);
+        var sbh = sb.height();
+        var offset = $('.sphinxsidebar').position()['top'];
+        var wintop = win.scrollTop();
+        var winbot = wintop + win.innerHeight();
+        var curtop = sb.position()['top'];
+        var curbot = curtop + sbh;
+        // does sidebar fit in window?
+        if (sbh < win.innerHeight()) {
+          // yes: easy case -- always keep at the top
+          sb.css('top', $u.min([$u.max([0, wintop - offset - 10]),
+                                $(document).height() - sbh - 200]));
+        } else {
+          // no: only scroll if top/bottom edge of sidebar is at
+          // top/bottom edge of window
+          if (curtop > wintop && curbot > winbot) {
+            sb.css('top', $u.max([wintop - offset - 10, 0]));
+          } else if (curtop < wintop && curbot < winbot) {
+            sb.css('top', $u.min([winbot - sbh - offset - 20,
+                                  $(document).height() - sbh - 200]));
+          }
+        }
+      });
+    </script>
+
+  </head><body>
+<div class="pageheader">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="usage/installation.html">Get it</a></li>
+    <li><a href="contents.html">Docs</a></li>
+    <li><a href="develop.html">Extend/Develop</a></li>
+  </ul>
+  <div>
+    <a href="index.html">
+      <img src="_static/logo.png" alt="PyLiT" />
+    </a>
+  </div>
+</div>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="changes.html" title="Change Log"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Home</a>&#160;|</li>
+        <li><a href="contents.html">Documentation</a> &#187;</li>
+
+        <li class="nav-item nav-item-this"><a href="">Glossary</a></li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="contents.html">
+              <img class="logo" src="_static/badge.svg" alt="Logo"/>
+            </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="changes.html"
+                        title="previous chapter">Change Log</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/glossary.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <p>Read time: 4.2 minutes (425 words)</p>
+<section id="glossary">
+<span id="id1"></span><h1>Glossary<a class="headerlink" href="#glossary" title="Permalink to this headline">¶</a></h1>
+<dl class="glossary simple">
+<dt id="term-CG">CG<a class="headerlink" href="#term-CG" title="Permalink to this term">¶</a></dt><dt id="term-Center-of-Gravity">Center of Gravity<a class="headerlink" href="#term-Center-of-Gravity" title="Permalink to this term">¶</a></dt><dd><p>The “balance point” of a part or assembly. Measured from some reference
+point, usually the origin of the coordinate system used to design the
+part or assembly.</p>
+</dd>
+<dt id="term-CLI">CLI<a class="headerlink" href="#term-CLI" title="Permalink to this term">¶</a></dt><dt id="term-command-line-interface">command line interface<a class="headerlink" href="#term-command-line-interface" title="Permalink to this term">¶</a></dt><dd><p>The application code that provides a way fr the user to control how an
+application runs. This interface provides for basic commands and
+optional arguments that define exactly what features of the program
+will be activated.</p>
+</dd>
+<dt id="term-cloud">cloud<a class="headerlink" href="#term-cloud" title="Permalink to this term">¶</a></dt><dd><p>A fancy term for the Internet. Servers available on the Internet network
+system provide a variety of services: web pages, data storage,
+applications. I guess “cloud” is easier to type then “Internet”.</p>
+</dd>
+<dt id="term-command-line">command line<a class="headerlink" href="#term-command-line" title="Permalink to this term">¶</a></dt><dd><p>A user interface where you type in commands to get the operating system
+to run some program or command. Available on all systems.</p>
+</dd>
+<dt id="term-command-prompt">command prompt<a class="headerlink" href="#term-command-prompt" title="Permalink to this term">¶</a></dt><dd><p>When you open a <a class="reference internal" href="#term-command-line"><span class="xref std std-term">command line</span></a> window, you are shown a “command
+prompt” telling you the system is waiting for you to type in some
+command. There is usually a special character at the start of a line
+where you will type in something. On Linux and Mac, this character is
+usually a dollar sign, on Windows it is the right angle bracket.  Given
+When Then A version of <em>Test Driven Development</em> where we define the state of the project
+(Given) and an action we will take (When) and the result we expect
+(Then).  See <a class="reference external" href="https://martinfowler.com/bliki/GivenWhenThen.html">given when then</a></p>
+</dd>
+<dt id="term-environment-variable">environment variable<a class="headerlink" href="#term-environment-variable" title="Permalink to this term">¶</a></dt><dd><p>Operating systems let users set special variables that can be accessed
+by software later. These variables can be used to store sensitive data
+that should not be accidentally be coded into software.</p>
+</dd>
+<dt id="term-GUI">GUI<a class="headerlink" href="#term-GUI" title="Permalink to this term">¶</a></dt><dt id="term-graphical-user-interface">graphical user interface<a class="headerlink" href="#term-graphical-user-interface" title="Permalink to this term">¶</a></dt><dd><p>The traditional mouse driven point and click interface.</p>
+</dd>
+<dt id="term-HTML">HTML<a class="headerlink" href="#term-HTML" title="Permalink to this term">¶</a></dt><dd><p>Hyper Text Markup Language. The language used to create web pages.</p>
+</dd>
+<dt id="term-IDE">IDE<a class="headerlink" href="#term-IDE" title="Permalink to this term">¶</a></dt><dt id="term-Integrated-development-Environment">Integrated development Environment<a class="headerlink" href="#term-Integrated-development-Environment" title="Permalink to this term">¶</a></dt><dd><p>A tool, usually language specific used by developers that packages
+everything needed to write and maintain program code.</p>
+</dd>
+<dt id="term-JSON">JSON<a class="headerlink" href="#term-JSON" title="Permalink to this term">¶</a></dt><dd><p>JavaScript Object Notation - a text-based file format for data interchange.</p>
+</dd>
+<dt id="term-LaTeX">LaTeX<a class="headerlink" href="#term-LaTeX" title="Permalink to this term">¶</a></dt><dd><p>A popular high-end publishing language used to produce professional publications.</p>
+</dd>
+<dt id="term-PDF">PDF<a class="headerlink" href="#term-PDF" title="Permalink to this term">¶</a></dt><dd><p>Portable Document format. A standard document format developed by Adobe.</p>
+</dd>
+<dt id="term-railroad-diagram">railroad diagram<a class="headerlink" href="#term-railroad-diagram" title="Permalink to this term">¶</a></dt><dd><p>A graphical depiction of a grammar rule, commonly used  in designing
+programming languages.  SCAD Code file extension for <em>OpenSCAD</em></p>
+</dd>
+<dt id="term-SCAD">SCAD<a class="headerlink" href="#term-SCAD" title="Permalink to this term">¶</a></dt><dd><p>A file containing code for <em>OpenSCAD</em> to process. These files end with <strong>.scad</strong>.</p>
+</dd>
+<dt id="term-Script">Script<a class="headerlink" href="#term-Script" title="Permalink to this term">¶</a></dt><dd><p>A text file containing instructions for the operating system. The
+scripting language can vary depending on the system: <em>Bash</em> for Linux
+and Mac, and <em>Batch</em> files for the PC.</p>
+</dd>
+<dt id="term-semantic-versioning">semantic versioning<a class="headerlink" href="#term-semantic-versioning" title="Permalink to this term">¶</a></dt><dd><p>A style if
+version numbering common in software development. See <a class="reference external" href="https://semver.org/">semantic
+versioning</a></p>
+</dd>
+<dt id="term-Shell">Shell<a class="headerlink" href="#term-Shell" title="Permalink to this term">¶</a></dt><dd><p>A text only window where you can issue commands to the operating system. See <a class="reference internal" href="#term-command-line"><span class="xref std std-term">command line</span></a></p>
+</dd>
+<dt id="term-STL">STL<a class="headerlink" href="#term-STL" title="Permalink to this term">¶</a></dt><dd><p>Standard Tessellation Language</p>
+</dd>
+<dt id="term-TDD">TDD<a class="headerlink" href="#term-TDD" title="Permalink to this term">¶</a></dt><dd><p>Test Driven Development</p>
+</dd>
+<dt id="term-virtual-machine">virtual machine<a class="headerlink" href="#term-virtual-machine" title="Permalink to this term">¶</a></dt><dd><p>A program that simulates a real system well enough to install a
+standard operating system and other software in an isolated
+environment. Commonly used in software testing, or experimenting with
+operating systems.</p>
+</dd>
+<dt id="term-YAML">YAML<a class="headerlink" href="#term-YAML" title="Permalink to this term">¶</a></dt><dd><p>Yet Another Markup Language</p>
+</dd>
+</dl>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="changes.html" title="Change Log"
+             >previous</a> |</li>
+        <li><a href="index.html">Home</a>&#160;|</li>
+        <li><a href="contents.html">Documentation</a> &#187;</li>
+
+        <li class="nav-item nav-item-this"><a href="">Glossary</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Roie R. Black.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.2.0.
+    </div>
+  </body>
+</html>
