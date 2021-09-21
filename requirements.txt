@@ -3,6 +3,7 @@ sphinxcontrib-spelling
 sphinxcontrib-programoutput
 sphinxcontrib-tikz
 texext
+pyqt5
 pytest
 pytest-qt
 pytest-cov

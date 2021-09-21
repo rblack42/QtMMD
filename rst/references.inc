@@ -24,6 +24,8 @@
 ..  |PYPI|                  replace:: *Python Package Index*
 ..  _PYPI:                  https://pypi.org/
 
+..  _PyTest:                https://docs.pytest.org/en/6.2.x/
+
 ..  |RST|                   replace:: *reStructuredText*
 
 ..  |VENV|                  replace:: *Virtual Environment*

@@ -12,3 +12,12 @@ reqs:
 docs:
 	cd rst && \
 		sphinx-build -b html -d _build/doctrees . ../docs
+
+.PHONY: test
+test:
+	python -m pytest tests
+
+.PHONY: changes
+changes:	## create CHANGES file from git logs
+	git log --oneline --pretty=format:"* %ad: %s" --date=short > CHANGES
+
