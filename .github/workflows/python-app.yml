@@ -16,6 +16,15 @@ jobs:
         platform: [ubuntu-latest, windows-latest, macos-latest]
         python-version: [3.9]
         qt-lib: [pyqt5]
+        include:
+            - os: ubuntu-latest
+            DEPENDENCIES_INSTALLATION: "sudo apt -y install openscad"
+          - os: windows-latest
+            DEPENDENCIES_INSTALLATION: "choco install openscad"
+          - os: macos-latest
+            DEPENDENCIES_INSTALLATION: "brew install openscad"
+
+
     steps:
     - uses: actions/checkout@v2
 

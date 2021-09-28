@@ -39,12 +39,12 @@ manage a project, and simplify running those steps.
 Step1: Create the Project Directory
 ===================================
 
-This is simple. Pick a place on your system where you will be managing projects. On my system, I use a directory named **_dev** in my home directory. This project will be named **qtMMD** so this is the command I use to set up the project:
+This is simple. Pick a place on your system where you will be managing projects. On my system, I use a directory named **_dev** in my home directory. This project will be named **QtMMD** so this is the command I use to set up the project:
 
 ..	code-block:: shell
 
 	$ cd _dev
-	$ mkdir qtMMD
+	$ mkdir QtMMD
 
 Step2: Create the |VENV|
 ========================

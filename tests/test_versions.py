@@ -7,17 +7,6 @@ import QtMMD
 def test_app_version():
     assert QtMMD.version() == __version__
 
-@pytest.mark.skip(reason="Local test only")
-def test_python_venv():
-    cwd = os.getcwd()
-    pypath = subprocess.check_output(
-                ['which', 'python'],
-                universal_newlines=True
-            )
-    assert cwd in pypath
-    print(cwd, pypath)
-
-@pytest.mark.skip(reason="Local test only")
 def test_openscad_version():
     process = subprocess.run(
                 ['openscad', '--version'],
