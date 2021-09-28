@@ -13,15 +13,15 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        platform: [ubuntu-latest, windows-latest, macos-latest]
+        platform: [ubuntu-20.04, windows-2019, macos-11]
         python-version: [3.9]
         qt-lib: [pyqt5]
         include:
-            - os: ubuntu-latest
+            - os: ubuntu-20.04
             DEPENDENCIES_INSTALLATION: "sudo apt -y install openscad"
-          - os: windows-latest
+          - os: windows-2019
             DEPENDENCIES_INSTALLATION: "choco install openscad"
-          - os: macos-latest
+          - os: macos-11
             DEPENDENCIES_INSTALLATION: "brew install openscad"
 
 
