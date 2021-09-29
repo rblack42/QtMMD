@@ -18,11 +18,7 @@ jobs:
       run: choco install  openscad
 
     - name: Add OSC to path
-      run:  |
-      echo "C:\Program Files\OpenSCAD" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
-        echo $GITHUB_PATH
-        dir "C:\Program Files\OpenSCAD\"
-
+      run: echo "C:\Program Files\OpenSCAD" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
     - name: install Python dependencies
       run: |
