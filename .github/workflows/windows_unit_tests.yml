@@ -21,6 +21,8 @@ jobs:
       run:  |
         echo "C:\Program Files\OpenSCAD" >> $GITHUB_PATH
         echo $GITHUB_PATH
+        dir "C:\Program Files"
+
 
     - name: install Python dependencies
       run: |
