@@ -19,8 +19,8 @@ jobs:
 
     - name: Add OSC to path
       run:  |
-        echo "C:\Program Files\OpenSCAD" >> $GITHUB_PATH
-        echo $GITHUB_PATH
+        echo "C:\Program Files\OpenSCAD" >> $PATH
+        echo $PATH
         dir "C:\Program Files"
 
 
