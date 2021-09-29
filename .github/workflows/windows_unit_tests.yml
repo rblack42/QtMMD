@@ -21,7 +21,7 @@ jobs:
       run:  |
         echo "C:\Program Files\OpenSCAD" >> $PATH
         echo $PATH
-        dir "C:\Program Files\OpenSCAD*"
+        dir "C:\Program Files\OpenSCAD\"
 
 
     - name: install Python dependencies
