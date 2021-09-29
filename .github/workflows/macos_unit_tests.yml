@@ -17,6 +17,7 @@ jobs:
     - name: Install dependencies
       run: |
         brew install openscad
+        ln -s /Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD /usr/local/bin/openscad
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
