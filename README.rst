@@ -13,9 +13,10 @@ qtMMD
       - | |github|
 
 
-.. |github| image:: https://github.com/rblack42/qtMMD/actions/workflows/python-app.yml/badge.svg
-    :alt: Github Workflows
-    :target: https://github.com/rblack42/qtMMD
+.. |macos unit tests| image::
+    https://github.com/rblack42/QtMMD/actions/workflows/macos_unit_tests.yml/badge.svg
+    :alt: MacOS Unit Tests
+    :target: https://github.com/rblack42/QtMMD
 
 ..  end-badges
 
