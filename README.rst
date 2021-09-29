@@ -10,11 +10,21 @@ qtMMD
     :stub-columns: 1
 
     * - tests
-      - | |github|
+      - | |MacOS Tests| |Linux Tests| | Windows Tests|
 
 
-.. |macos unit tests| image::
+.. |MacOS Tests| image::
     https://github.com/rblack42/QtMMD/actions/workflows/macos_unit_tests.yml/badge.svg
+    :alt: MacOS Unit Tests
+    :target: https://github.com/rblack42/QtMMD
+
+.. |Linux Tests| image::
+    https://github.com/rblack42/QtMMD/actions/workflows/linux_unit_tests.yml/badge.svg
+    :alt: MacOS Unit Tests
+    :target: https://github.com/rblack42/QtMMD
+
+.. |Windows Tests| image::
+    https://github.com/rblack42/QtMMD/actions/workflows/windows_unit_tests.yml/badge.svg
     :alt: MacOS Unit Tests
     :target: https://github.com/rblack42/QtMMD
 

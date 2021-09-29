@@ -14,4 +14,4 @@ def test_openscad_version():
                 universal_newlines=True
             )
     osc_version = process.stderr
-    assert '2021' in osc_version
+    assert 'version 20' in osc_version

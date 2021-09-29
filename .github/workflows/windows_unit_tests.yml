@@ -1,4 +1,4 @@
-name: macos_unit_tests
+name: windows_unit_tests
 
 on: [push]
 
